@@ -25,18 +25,33 @@ function Footer() {
             </List>
           </Grid.Column>
 
-<Grid.Column>
-  <h4>Stay connected</h4>
-  <a href="https://facebook.com" target="_blank" title= "Follow us on Facebook">
-    <Icon name="facebook" size="large" link style={{ color: "white" }} />
-  </a>
-  <a href="https://twitter.com" target="_blank" title= "Follow us on Twitter">
-    <Icon name="twitter" size="large" link style={{ color: "white" }} />
-  </a>
-  <a href="https://instagram.com" target="_blank" title= "Follow us on Instagram">
-    <Icon name="instagram" size="large" link style={{ color: "white" }} />
-  </a>
-</Grid.Column>
+          <Grid.Column>
+            <h4>Stay connected</h4>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noreferrer"
+              title="Follow us on Facebook"
+            >
+              <Icon name="facebook" size="large" link style={{ color: "white" }} />
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noreferrer"
+              title="Follow us on Twitter"
+            >
+              <Icon name="twitter" size="large" link style={{ color: "white" }} />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noreferrer"
+              title="Follow us on Instagram"
+            >
+              <Icon name="instagram" size="large" link style={{ color: "white" }} />
+            </a>
+          </Grid.Column>
         </Grid.Row>
       </Grid>
 
@@ -46,6 +61,6 @@ function Footer() {
       </div>
     </div>
   );
-};
+}
 
 export default Footer;
